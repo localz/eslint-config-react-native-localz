@@ -1,11 +1,12 @@
 # eslint-config-react-native-localz
 
+This config will also integrate prettier into your eslint workflow... no need for a `.prettierrc`!
+
 ## Install
 
 ```
 $ npm install eslint-config-react-native-localz --save-dev
 ```
-
 
 ## Usage
 

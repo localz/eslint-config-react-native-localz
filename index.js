@@ -5,12 +5,13 @@ module.exports = {
     jest: true
   },
   extends: [
-    'standard'
+    'eslint:recommended',
+    'prettier'
   ],
   plugins: [
-    'prettier',
     'react',
-    'react-native'
+    'react-native',
+    'prettier'
   ],
   parser: 'babel-eslint',
   parserOptions: {
@@ -22,7 +23,15 @@ module.exports = {
     }
   },
   rules: {
-    'prettier/prettier': 'error',
+    'prettier/prettier': ['error',
+      {
+        "bracketSpacing": true,
+        "jsxBracketSameLine": true,
+        "printWidth": 80,
+        "singleQuote": true,
+        "semi": false
+      }
+    ],
     'react/no-deprecated': 'error',
     'react/no-children-prop': 'error',
     'react/no-direct-mutation-state': 'error',
