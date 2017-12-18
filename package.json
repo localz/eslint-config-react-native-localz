@@ -15,7 +15,8 @@
     "url": "https://github.com/localz/eslint-config-react-native-localz/issues"
   },
   "homepage": "https://github.com/localz/eslint-config-react-native-localz#readme",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "babel-eslint": "^8.0.3",
     "eslint": "^4.11.0",
     "eslint-config-prettier": "^2.9.0",
