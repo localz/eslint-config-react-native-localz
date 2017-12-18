@@ -5,7 +5,7 @@ This config will also integrate prettier into your eslint workflow... no need fo
 ## Install
 
 ```
-$ npm install eslint-config-react-native-localz prettier --save-dev
+$ npm install eslint-config-react-native-localz eslint prettier --save-dev
 ```
 
 ## Usage
