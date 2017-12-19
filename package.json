@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-react-native-localz",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "ESLint config for the Localz React Native repositories",
   "files": [
     "index.js",
