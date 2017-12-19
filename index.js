@@ -65,6 +65,7 @@ module.exports = {
     'react/jsx-uses-react': 'error',
     'react-native/no-unused-styles': 2,
     'react-native/no-inline-styles': 2,
-    'react-native/no-color-literals': 2
+    'react-native/no-color-literals': 2,
+    'arrow-body-style': ['error', 'as-needed']
   }
 }
