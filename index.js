@@ -29,7 +29,8 @@ module.exports = {
         "jsxBracketSameLine": true,
         "printWidth": 80,
         "singleQuote": true,
-        "semi": false
+        "semi": false,
+        "useTabs": false
       }
     ],
     'react/no-deprecated': 'error',
@@ -37,7 +38,7 @@ module.exports = {
     'react/no-direct-mutation-state': 'error',
     'react/default-props-match-prop-types': 'error',
     'react/jsx-no-comment-textnodes': 'error',
-    'react/jsx-handler-names': 'error',    
+    'react/jsx-handler-names': 'error',
     'react/jsx-max-props-per-line': [
       'error',
       {
@@ -60,7 +61,7 @@ module.exports = {
         'ignoreCase': true
       }
     ],
-    'react/jsx-uses-vars': 'error',    
+    'react/jsx-uses-vars': 'error',
     'react/jsx-uses-react': 'error',
     'react-native/no-unused-styles': 2,
     'react-native/no-inline-styles': 2,
