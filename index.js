@@ -11,7 +11,8 @@ module.exports = {
   plugins: [
     'react',
     'react-native',
-    'prettier'
+    'prettier',
+    'unicorn'
   ],
   parser: 'babel-eslint',
   parserOptions: {
@@ -65,6 +66,33 @@ module.exports = {
     'react/jsx-uses-react': 'error',
     'react-native/no-unused-styles': 2,
     'react-native/no-inline-styles': 2,
-    'react-native/no-color-literals': 2
-  }
+    'react-native/no-color-literals': 2,
+    'arrow-body-style': ['error', 'as-needed'],
+    'unicorn/catch-error-name': 'error',
+    'unicorn/no-abusive-eslint-disable': 'error',
+    'unicorn/throw-new-error': 'error',
+    'unicorn/escape-case': 'error',
+    'unicorn/no-array-instanceof': 'error',
+    'unicorn/no-new-buffer': 'error',
+    'unicorn/no-hex-escape': 'error',
+    'unicorn/prefer-starts-ends-with': 'error',
+    'unicorn/prefer-type-error': 'error',
+    'unicorn/import-index': 'error',
+    'unicorn/new-for-builtins': 'error',
+    'unicorn/filename-case': ['error', {'case': 'kebabCase'}]
+  },
+  'overrides': [
+    {
+      'files': ['src/components/**/*.js', 'src/containers/**/*.js'],
+      'rules': {
+        'unicorn/filename-case': ['error', {'case': 'pascalCase'}]
+      }
+    },
+    {
+      'files': ['**/*.test.js'],
+      'rules': {
+        'unicorn/filename-case': 0
+      }
+    }
+  ]
 }
