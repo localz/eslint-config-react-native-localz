@@ -31,7 +31,8 @@ module.exports = {
         "printWidth": 80,
         "singleQuote": true,
         "semi": false,
-        "useTabs": false
+        "useTabs": false,
+        "trailingComma": "es5"
       }
     ],
     'react/no-deprecated': 'error',
@@ -79,7 +80,8 @@ module.exports = {
     'unicorn/prefer-type-error': 'error',
     'unicorn/import-index': 'error',
     'unicorn/new-for-builtins': 'error',
-    'unicorn/filename-case': ['error', {'case': 'kebabCase'}]
+    'unicorn/filename-case': ['error', {'case': 'kebabCase'}],
+    'comma-dangle': ['error', 'always-multiline']
   },
   'overrides': [
     {
