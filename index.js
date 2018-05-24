@@ -80,8 +80,7 @@ module.exports = {
     'unicorn/prefer-type-error': 'error',
     'unicorn/import-index': 'error',
     'unicorn/new-for-builtins': 'error',
-    'unicorn/filename-case': ['error', {'case': 'kebabCase'}],
-    'comma-dangle': ['error', 'always-multiline']
+    'unicorn/filename-case': ['error', {'case': 'kebabCase'}]
   },
   'overrides': [
     {
