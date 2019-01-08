@@ -38,6 +38,7 @@ module.exports = {
     "react/no-direct-mutation-state": "error",
     "react/default-props-match-prop-types": "error",
     "react/jsx-no-comment-textnodes": "error",
+    "react/jsx-no-undef": "error",
     "react/jsx-handler-names": "error",
     "react/jsx-max-props-per-line": [
       "error",
